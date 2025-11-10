@@ -1,0 +1,38 @@
+.body{
+    margin-top:100px ; 
+    text-align: center;
+}
+
+h1{
+    color:white ; 
+    font-size: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    margin : 25px ; 
+}
+span{
+    color:red ; 
+    font-weight:bolder;
+}
+h3{
+    margin-top:50px ; 
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    color:white; 
+}
+.courses{
+   display:flex ; 
+   justify-content:center;
+   flex-direction: row;
+   align-items: center;
+    gap:40px ;
+    margin-top:20px ;
+    flex-wrap: wrap ;
+}
+.course{
+    width:auto ; 
+    height:auto ; 
+    background-color: rgb(241, 216, 216) ; 
+    border-radius: 15px ;
+}

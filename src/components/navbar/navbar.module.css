@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  margin:30px; 
+  border-radius: 35px; 
+  background: linear-gradient(to right, #000000 25%, #1a004b, #010057);
+  position:fixed;
+  top: 0;
+  z-index: 1;
+  width:auto;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  animation: backgroundAnimation 5s infinite alternate;
+  min-width:50%; 
+}
+h2{
+    padding: 0px 20px;
+    background-color: rgb(255, 141, 141); 
+    border-radius: 35px; font-weight:bold;
+    cursor:pointer; 
+}
+ul{
+    display:flex;
+    list-style: none;
+}
+.links{
+    color:white; 
+    margin:6px;    
+    padding: 10px 20px; font-weight: bolder;
+    cursor:pointer; 
+    text-decoration:none; 
+}
+.links:hover{
+    color:rgb(27, 253, 241); 
+    transition: all 0.3s ease;
+    border-radius: 35px;  
+}
+.logo{
+    position:relative;
+    width:auto;
+    height:18px;
+    margin:10px 10px 0px 0px;
+}
+.ref{
+    text-decoration: none;
+    color: inherit;
+}
+.deadlink{
+    color: grey;
+    margin:6px;     padding: 10px 20px; font-weight: bolder;
+    cursor:pointer;
+    text-decoration:none; 
+}
+.deadlinks:hover{
+    color:rgb(27, 253, 241); 
+    transition: all 0.3s ease;
+    border-radius: 35px; 
+}
+
+
+
